@@ -37,10 +37,10 @@ While a Discounted Cash Flow (DCF) model assesses the intrinsic value of a compa
 
   Essential for commercial banks, insurance companies, and balance-sheet-heavy financial institutions whose assets consist primarily of liquid loans and securities marked near fair value.
 - **The First-Principles Drivers of Multiples:**
-  Every multiple can be derived mathematically from the Gordon Growth model. For the P/E ratio, with dividend payout ratio \\((1 - b)\\), cost of equity \\(r_e\\), and growth rate \\(g\\):
+  Every multiple can be derived mathematically from the Gordon Growth model. For the P/E ratio, with dividend payout ratio \\((1 - b)\\), cost of equity \\(r\_e\\), and growth rate \\(g\\):
 
 \\[
-\frac{P_0}{E_1} = \frac{1 - b}{r_e - g}
+\frac{P\_0}{E\_1} = \frac{1 - b}{r\_e - g}
 \\]
 
   Similarly, EV / EBITDA is fundamentally driven by:
@@ -88,7 +88,7 @@ Think of a multiple as an inverted capitalization rate: an 8.0x EV / EBITDA mult
    Answer: In a precedent transaction, the strategic or financial acquirer is purchasing 100% control of the company rather than a minority public share. The buyer pays a **control premium** (historically 20%–30% above the undisturbed share price) for the legal right to control the board, redirect free cash flows, optimize capital structure, shut down redundant headquarters, and capture revenue and cost synergies. Public trading comps reflect frictionless, liquid minority purchases with zero control.
 
 4. **If two companies have the exact same expected earnings growth and risk profile, why might Company X trade at 20x P/E while Company Y trades at 12x P/E?**  
-   Answer: Look at their **Return on Equity (ROE)** and capital reinvestment efficiency. By the formula \\(\frac{P}{E} = \frac{1 - g/\text{ROE}}{r_e - g}\\), if Company X has an ROE of 30% while Company Y has an ROE of 12%, Company X only needs to reinvest a small fraction of its earnings to generate the same growth rate \\(g\\), allowing it to pay out the rest in dividends or buybacks. Company Y must retain almost all its net earnings just to keep up. Investors pay a premium multiple for capital-light, high-return businesses.
+   Answer: Look at their **Return on Equity (ROE)** and capital reinvestment efficiency. By the formula \\(\frac{P}{E} = \frac{1 - g/\text{ROE}}{r\_e - g}\\), if Company X has an ROE of 30% while Company Y has an ROE of 12%, Company X only needs to reinvest a small fraction of its earnings to generate the same growth rate \\(g\\), allowing it to pay out the rest in dividends or buybacks. Company Y must retain almost all its net earnings just to keep up. Investors pay a premium multiple for capital-light, high-return businesses.
 
 5. **When is Price-to-Book (P/B) the primary valuation multiple, and when is it completely useless?**  
    Answer: P/B is the gold standard for valuing commercial banks, insurance carriers, and investment trusts. For these institutions, the balance sheet consists of liquid financial assets, government bonds, and loans marked close to fair market value, and regulatory capital requirements are tied directly to book equity. Conversely, P/B is useless for asset-light software, consulting, and consumer brand companies (e.g., Apple, Microsoft, Nike), where the true productive assets—proprietary software, brand equity, intellectual property—are never capitalized on the balance sheet under GAAP.

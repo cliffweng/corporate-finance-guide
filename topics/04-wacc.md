@@ -20,33 +20,33 @@ The Weighted Average Cost of Capital (WACC) is the universal hurdle rate in corp
 - **The Standard Formula:**
 
 \\[
-\text{WACC} = \left(\frac{E}{V}\right) r_e + \left(\frac{D}{V}\right) r_d (1 - t) + \left(\frac{P}{V}\right) r_p
+\text{WACC} = \left(\frac{E}{V}\right) r\_e + \left(\frac{D}{V}\right) r\_d (1 - t) + \left(\frac{P}{V}\right) r\_p
 \\]
 
   - \\(E\\): Market value of common equity (market capitalization: \\(\text{share price} \times \text{diluted shares}\\)).
   - \\(D\\): Market value of debt.
   - \\(P\\): Market value of preferred stock (if applicable).
   - \\(V = E + D + P\\): Total market enterprise capitalization.
-  - \\(r_e\\): Cost of equity derived via [CAPM](../03-capm-cost-of-equity/).
-  - \\(r_d\\): Pre-tax marginal cost of debt.
+  - \\(r\_e\\): Cost of equity derived via [CAPM](../03-capm-cost-of-equity/).
+  - \\(r\_d\\): Pre-tax marginal cost of debt.
   - \\(t\\): Marginal corporate tax rate.
-  - \\(r_p\\): Cost of preferred stock (\\(D_p / P_0\\)).
+  - \\(r\_p\\): Cost of preferred stock (\\(D\_p / P\_0\\)).
 - **Weights MUST Reflect Market Values, Not Book Values:**
   Book values represent sunk, historical accounting entries. Investors in capital markets do not commit capital based on historical costs; they require a return on the *current market value* of their investments. If a company has a book equity of $100M and a market cap of $1B, using book weights drastically overweights debt and underestimates the true economic cost of capital.
-- **Cost of Debt (\\(r_d\\)) is Forward-Looking:**
+- **Cost of Debt (\\(r\_d\\)) is Forward-Looking:**
   - **Never use the historical coupon rate.** The coupon on an existing bond reflects financing conditions at issuance.
   - Use the current **Yield to Maturity (YTM)** on the company’s long-term liquid public bonds.
   - If public debt is illiquid or unrated, estimate a **synthetic credit rating** based on the interest coverage ratio (\\(\text{EBIT} / \text{Interest Expense}\\)) and add the corresponding corporate default spread to the risk-free rate:
 
 \\[
-r_d = r_f + \text{Default Spread}_{\text{rating}}
+r\_d = r\_f + \text{Default Spread}\_{\text{rating}}
 \\]
 
 - **The Interest Tax Shield (\\(1 - t\\)):**
-  Because interest payments are tax-deductible expenses on the income statement, the government effectively subsidizes debt financing. Each dollar of interest saves \\(t\\) dollars in taxes, yielding an effective after-tax borrowing cost of \\(r_d(1-t)\\). Note that preferred dividends are paid from *net income* (after tax) and therefore provide no tax deduction.
+  Because interest payments are tax-deductible expenses on the income statement, the government effectively subsidizes debt financing. Each dollar of interest saves \\(t\\) dollars in taxes, yielding an effective after-tax borrowing cost of \\(r\_d(1-t)\\). Note that preferred dividends are paid from *net income* (after tax) and therefore provide no tax deduction.
 - **WACC vs. APV (Adjusted Present Value):**
   - Standard WACC assumes the firm manages toward a **constant target debt-to-equity ratio** over time, automatically adjusting debt levels as firm value changes.
-  - If a deal has a fixed, changing nominal debt repayment schedule (such as an LBO or project finance loan), WACC breaks down. In those cases, **Adjusted Present Value (APV)** is mathematically superior: value the unlevered firm at \\(r_u\\) and add the PV of specific interest tax shields separately.
+  - If a deal has a fixed, changing nominal debt repayment schedule (such as an LBO or project finance loan), WACC breaks down. In those cases, **Adjusted Present Value (APV)** is mathematically superior: value the unlevered firm at \\(r\_u\\) and add the PV of specific interest tax shields separately.
 
 ## Mental model
 
@@ -71,12 +71,12 @@ Think of WACC as the blended hourly billing rate of a multidisciplinary firm: yo
 ## Interview questions
 
 1. **If debt is cheaper than equity due to seniority and the tax shield, why doesn't a corporation finance itself with 100% debt to minimize WACC?**  
-   Answer: As leverage increases, the probability of financial distress and bankruptcy escalates non-linearly. Higher debt increases financial risk for equity holders, causing equity beta (\\(\beta_L\\)) and cost of equity (\\(r_e\\)) to rise steeply. Beyond an optimal threshold, bondholders also demand higher credit spreads, causing \\(r_d\\) to surge. Eventually, the soaring costs of equity and debt—along with direct and indirect bankruptcy costs—outweigh the incremental tax shield, causing overall WACC to increase (see [Capital structure](../05-capital-structure/) and [Leverage trade-offs](../06-leverage-tradeoffs/)).
+   Answer: As leverage increases, the probability of financial distress and bankruptcy escalates non-linearly. Higher debt increases financial risk for equity holders, causing equity beta (\\(\beta\_L\\)) and cost of equity (\\(r\_e\\)) to rise steeply. Beyond an optimal threshold, bondholders also demand higher credit spreads, causing \\(r\_d\\) to surge. Eventually, the soaring costs of equity and debt—along with direct and indirect bankruptcy costs—outweigh the incremental tax shield, causing overall WACC to increase (see [Capital structure](../05-capital-structure/) and [Leverage trade-offs](../06-leverage-tradeoffs/)).
 
 2. **A company has a market cap of $600M and debt of $400M. Cost of equity is 10%, pre-tax cost of debt is 5%, and the tax rate is 20%. Calculate WACC. What happens if the corporate tax rate increases to 30%?**  
    Answer:  
    Total Capital \\(V = 600 + 400 = \$1,000\text{M}\\).  
-   Equity weight \\(w_e = 0.60\\), Debt weight \\(w_d = 0.40\\).  
+   Equity weight \\(w\_e = 0.60\\), Debt weight \\(w\_d = 0.40\\).  
    After-tax cost of debt \\(= 5\% \times (1 - 0.20) = 4.0\%\\).  
 
 \\[

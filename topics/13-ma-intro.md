@@ -21,8 +21,8 @@ Mergers and acquisitions (M&A) represent the most consequential, high-stakes cap
   - **Cost Synergies ("Hard Synergies"):** Tangible operational overlap eliminated upon closing: consolidating corporate headquarters, laying off redundant administrative staff, merging sales forces, closing duplicate warehouses, and extracting volume vendor discounts. Investment bankers model cost synergies aggressively (e.g., 50%–80% realization).
   - **Revenue Synergies ("Soft Synergies"):** Cross-selling the target's products through the acquirer's global sales channels, entering new geographic markets, or bundling products. Viewed with skepticism by institutional investors and discounted heavily in transaction models.
 - **Financing Structure (Cash vs. Debt vs. Stock):**
-  - **Cash:** Cheapest consideration; the acquirer only forfeits after-tax interest income earned on cash balances: \\(r_{\text{cash}}(1 - t)\\). Maximizes EPS accretion but consumes liquidity.
-  - **Debt:** Moderate cost; the acquirer borrows at its after-tax marginal borrowing cost: \\(r_d(1 - t)\\). Very accretive when interest rates are low, but raises financial leverage and distress risk.
+  - **Cash:** Cheapest consideration; the acquirer only forfeits after-tax interest income earned on cash balances: \\(r\_{\text{cash}}(1 - t)\\). Maximizes EPS accretion but consumes liquidity.
+  - **Debt:** Moderate cost; the acquirer borrows at its after-tax marginal borrowing cost: \\(r\_d(1 - t)\\). Very accretive when interest rates are low, but raises financial leverage and distress risk.
   - **Stock:** Most expensive consideration; cost of stock is the reciprocal of the acquirer's P/E ratio (its earnings yield: \\(E/P\\)). Protects balance sheet cash and shares downside risk with the seller, but dilutes ownership.
 - **Accretion / Dilution Mechanics:**
   - **Accretive Deal:** Combined Pro Forma EPS is strictly *greater* than the Acquirer’s Standalone EPS.
@@ -31,7 +31,7 @@ Mergers and acquisitions (M&A) represent the most consequential, high-stakes cap
     In an all-stock transaction with no synergies, the deal is **accretive if and only if the Acquirer's P/E multiple is higher than the Target's effective purchase P/E multiple**:
 
 \\[
-(P/E)_{\text{Acquirer}} > (P/E)_{\text{Target}} \iff \text{Accretive}
+(P/E)\_{\text{Acquirer}} > (P/E)\_{\text{Target}} \iff \text{Accretive}
 \\]
 
   *Proof:* To purchase $1 of target net income, an acquirer trading at 20x P/E must issue $20 of stock, representing only $1 of its own earnings. If the target is bought at 10x P/E, that same $20 of issued stock buys $2 of target earnings. Net earnings grow faster than share count.

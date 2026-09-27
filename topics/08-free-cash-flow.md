@@ -54,11 +54,11 @@ Accounting net income is distorted by non-cash charges, revenue recognition timi
   - **- Change in Net Working Capital (\\(\Delta\text{NWC}\\)):** Working capital ties up operational liquidity.
     - An increase in operating current assets (e.g., Accounts Receivable, Inventory) is a **cash outflow** (cash is locked up in unpaid customer invoices or unsold stock).
     - An increase in operating current liabilities (e.g., Accounts Payable, Accrued Expenses) is a **cash inflow** (suppliers have effectively lent the company interest-free cash).
-    - Therefore, \\(\Delta\text{NWC} = \text{NWC}_t - \text{NWC}_{t-1}\\) is subtracted.
+    - Therefore, \\(\Delta\text{NWC} = \text{NWC}\_t - \text{NWC}\_{t-1}\\) is subtracted.
 - **The Golden Rule of Valuation Consistency:**
   - Discount **FCFF** at **WACC** \\(\implies\\) yields **Enterprise Value (EV)**.
-  - Discount **FCFE** at **Cost of Equity (\\(r_e\\))** \\(\implies\\) yields **Equity Value**.
-  - *Never cross the streams:* Discounting FCFF at \\(r_e\\) or FCFE at WACC is an immediate interview failure.
+  - Discount **FCFE** at **Cost of Equity (\\(r\_e\\))** \\(\implies\\) yields **Equity Value**.
+  - *Never cross the streams:* Discounting FCFF at \\(r\_e\\) or FCFE at WACC is an immediate interview failure.
 
 ## Mental model
 

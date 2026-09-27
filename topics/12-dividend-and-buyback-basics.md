@@ -35,7 +35,7 @@ When a mature corporation generates free cash flow in excess of available positi
   Repurchasing shares reduces the share count, which mechanically increases Earnings Per Share (EPS) whenever the earnings yield of the stock exceeds the foregone interest on cash:
 
 \\[
-\text{Earnings Yield} = \frac{\text{EPS}}{P} = \frac{1}{\text{P/E}} > r_{\text{cash}}(1 - t)
+\text{Earnings Yield} = \frac{\text{EPS}}{P} = \frac{1}{\text{P/E}} > r\_{\text{cash}}(1 - t)
 \\]
 
   *Critical Interview Point:* **EPS accretion does NOT equal value creation.** If a board repurchases shares at $100 when their intrinsic value is only $70, management transfers wealth directly from remaining long-term shareholders to departing selling shareholders, destroying intrinsic value despite higher headline EPS.
