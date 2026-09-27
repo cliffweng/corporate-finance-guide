@@ -19,33 +19,43 @@ Capital structure refers to the specific mix of debt, equity, and hybrid instrum
 
 - **Modigliani-Miller Proposition I (No Taxes, 1958):**  
   In a frictionless market (no taxes, no transaction costs, no bankruptcy penalties, equal borrowing rates for firms and individuals, symmetric information), the market value of any firm is completely independent of its capital structure:
-  \[
-  V_L = V_U
-  \]
+
+\\[
+V_L = V_U
+\\]
+
   A firm's value is determined entirely by the earning power and systematic risk of its underlying real assets, not by how claims on those cash flows are sliced.
 - **The Homemade Leverage Mechanism:**  
-  If a levered firm were to trade at a premium over an identical unlevered firm, investors could sell shares in the levered firm, buy shares in the unlevered firm, and borrow on their personal margin accounts at the same rate \(r_d\) to replicate the exact same risk-return payoff at a lower cost. Arbitrage forces \(V_L = V_U\).
+  If a levered firm were to trade at a premium over an identical unlevered firm, investors could sell shares in the levered firm, buy shares in the unlevered firm, and borrow on their personal margin accounts at the same rate \\(r_d\\) to replicate the exact same risk-return payoff at a lower cost. Arbitrage forces \\(V_L = V_U\\).
 - **Modigliani-Miller Proposition II (No Taxes):**  
   As a company issues cheaper debt, the financial risk of common equity increases, raising the cost of equity linearly:
-  \[
-  r_e = r_0 + \left(r_0 - r_d\right) \frac{D}{E}
-  \]
-  *(Where \(r_0\) is the unlevered cost of capital / return on assets.)*  
+
+\\[
+r_e = r_0 + \left(r_0 - r_d\right) \frac{D}{E}
+\\]
+
+  *(Where \\(r_0\\) is the unlevered cost of capital / return on assets.)*  
   The benefit of substituting cheap debt for expensive equity is exactly offset by the increase in the cost of equity. As a result, [WACC](../04-wacc/) remains completely flat.
 - **MM Proposition I with Corporate Taxes (1963):**  
-  Because governments allow corporations to deduct interest payments from taxable corporate income, debt creates an annual cash savings known as the **interest tax shield** (\(t_c \cdot r_d \cdot D\)). Discounting this perpetual tax shield at the cost of debt \(r_d\):
-  \[
-  PV(\text{Tax Shield}) = \frac{t_c \cdot r_d \cdot D}{r_d} = t_c D
-  \]
+  Because governments allow corporations to deduct interest payments from taxable corporate income, debt creates an annual cash savings known as the **interest tax shield** (\\(t_c \cdot r_d \cdot D\\)). Discounting this perpetual tax shield at the cost of debt \\(r_d\\):
+
+\\[
+PV(\text{Tax Shield}) = \frac{t_c \cdot r_d \cdot D}{r_d} = t_c D
+\\]
+
   Therefore, the levered firm value equals the unlevered value plus the capitalized tax shield:
-  \[
-  V_L = V_U + t_c D
-  \]
+
+\\[
+V_L = V_U + t_c D
+\\]
+
 - **MM Proposition II with Corporate Taxes:**  
-  With taxes, the increase in \(r_e\) is dampened by the tax deduction:
-  \[
-  r_e = r_0 + \left(r_0 - r_d\right)(1 - t_c) \frac{D}{E}
-  \]
+  With taxes, the increase in \\(r_e\\) is dampened by the tax deduction:
+
+\\[
+r_e = r_0 + \left(r_0 - r_d\right)(1 - t_c) \frac{D}{E}
+\\]
+
   Consequently, with corporate taxes alone, WACC decreases monotonically with leverage, implying that firms should maximize debt (100% debt financing). This extreme theoretical conclusion highlights the necessity of incorporating bankruptcy costs (see [Leverage trade-offs](../06-leverage-tradeoffs/)).
 
 ## Mental model
@@ -73,13 +83,13 @@ Think of corporate earnings as a pizza. Cutting the pizza into more slices (debt
    Answer: The value of a business is determined by its ability to generate operational cash flows from its factories, software, and customers—the size of the pie. Slicing that pie into debt claims (contractual interest) and equity claims (residual dividends) does not make the pie any larger. An investor can recreate any capital mix on their own. Therefore, financing decisions do not create value unless they reduce taxes paid to the government or resolve real-world market frictions.
 
 2. **If MM Proposition II proves that debt is cheaper than equity but raises the cost of equity, why doesn't WACC change in a zero-tax world?**  
-   Answer: Although debt is cheaper than equity because lenders have senior claims on assets, adding debt introduces financial risk to common stockholders. To compensate for bearing this leverage risk, equity holders demand a higher expected return (\(r_e\)). The mathematical increase in \(r_e\) multiplied by equity weight \((E/V)\) exactly neutralizes the lower cost of debt \(r_d\) multiplied by debt weight \((D/V)\). The weighted average cost of capital remains invariant at \(r_0\).
+   Answer: Although debt is cheaper than equity because lenders have senior claims on assets, adding debt introduces financial risk to common stockholders. To compensate for bearing this leverage risk, equity holders demand a higher expected return (\\(r_e\\)). The mathematical increase in \\(r_e\\) multiplied by equity weight \\((E/V)\\) exactly neutralizes the lower cost of debt \\(r_d\\) multiplied by debt weight \\((D/V)\\). The weighted average cost of capital remains invariant at \\(r_0\\).
 
 3. **Under MM with corporate taxes, what is the theoretical optimal capital structure? Why don't real firms follow this advice?**  
-   Answer: Under MM with corporate taxes alone, the optimal capital structure is 100% debt, because every incremental dollar of debt adds \(t_c\) dollars of present value via interest tax deductibility. Real-world corporations do not do this because MM with taxes ignores the offsetting costs of financial distress: default risk, lost customers, employee departures, legal fees, agency costs of debt, and debt covenants. The static trade-off theory balances the tax shield against these distress costs.
+   Answer: Under MM with corporate taxes alone, the optimal capital structure is 100% debt, because every incremental dollar of debt adds \\(t_c\\) dollars of present value via interest tax deductibility. Real-world corporations do not do this because MM with taxes ignores the offsetting costs of financial distress: default risk, lost customers, employee departures, legal fees, agency costs of debt, and debt covenants. The static trade-off theory balances the tax shield against these distress costs.
 
 4. **What is 'homemade leverage,' and how would an investor exploit a mispriced levered company?**  
-   Answer: Homemade leverage is the ability of individual investors to borrow margin debt on personal accounts to replicate corporate debt. If Levered Firm L trades at a market value greater than identical Unlevered Firm U (\(V_L > V_U\)), an investor holding shares in L can sell them, purchase proportional equity in U, and personally borrow an identical amount of debt. The investor generates the exact same net cash flow stream with lower total invested capital, pocketing an immediate arbitrage profit.
+   Answer: Homemade leverage is the ability of individual investors to borrow margin debt on personal accounts to replicate corporate debt. If Levered Firm L trades at a market value greater than identical Unlevered Firm U (\\(V_L > V_U\\)), an investor holding shares in L can sell them, purchase proportional equity in U, and personally borrow an identical amount of debt. The investor generates the exact same net cash flow stream with lower total invested capital, pocketing an immediate arbitrage profit.
 
 ## Watch
 

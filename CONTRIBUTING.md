@@ -13,4 +13,5 @@ Thanks for helping improve the guide. A few ground rules:
   bundle exec jekyll serve
   ```
   Then open `http://localhost:4000`.
+- **MathJax delimiters**: MathJax delimiters in markdown must be double-escaped for kramdown: write `\\(` `\\)` `\\[` `\\]` in source so HTML keeps `\(` `\)` `\[` `\]` for MathJax.
 - **Pull requests**: keep them focused (one topic or fix per PR) and describe what changed and why.

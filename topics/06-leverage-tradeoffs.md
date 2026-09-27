@@ -18,11 +18,13 @@ While the interest tax shield creates a clear incentive to borrow, real corporat
 ## Core concepts
 
 - **The Trade-off Model of Firm Value:**
-  \[
-  V_L = V_U + PV(\text{Interest Tax Shields}) - PV(\text{Financial Distress Costs})
-  \]
-  - As leverage (\(D/V\)) increases from zero, the tax shield (\(t_c D\)) dominates, increasing firm value and lowering [WACC](../04-wacc/).
-  - Beyond an optimal leverage threshold (\(D^*\)), the marginal probability of default multiplied by the severity of financial distress outpaces the marginal tax benefit, destroying firm value.
+
+\\[
+V_L = V_U + PV(\text{Interest Tax Shields}) - PV(\text{Financial Distress Costs})
+\\]
+
+  - As leverage (\\(D/V\\)) increases from zero, the tax shield (\\(t_c D\\)) dominates, increasing firm value and lowering [WACC](../04-wacc/).
+  - Beyond an optimal leverage threshold (\\(D^*\\)), the marginal probability of default multiplied by the severity of financial distress outpaces the marginal tax benefit, destroying firm value.
 - **Direct vs. Indirect Costs of Financial Distress:**
   - **Direct Costs:** Court fees, restructuring attorneys, turnaround advisors, restructuring investment bankers. Typically account for 2%–5% of pre-bankruptcy enterprise value.
   - **Indirect Costs:** The economic damage caused by the mere *threat* of insolvency long before formal Chapter 11 filing. Customers refuse to purchase goods requiring long-term warranties (e.g., cars, enterprise software); suppliers tighten credit terms to Cash on Delivery (COD); top executive talent departs; management is consumed by liquidity triage rather than strategic growth. Indirect costs frequently erode 10%–25% of firm value.
