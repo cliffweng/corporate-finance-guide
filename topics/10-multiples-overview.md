@@ -23,25 +23,33 @@ While a Discounted Cash Flow (DCF) model assesses the intrinsic value of a compa
   - **EV / EBIT:** Superior to EV / EBITDA for **capital-intensive industries** (e.g., manufacturing, airlines, heavy equipment). In these sectors, equipment wears out rapidly, and Capital Expenditures (CapEx) represent a mandatory ongoing cash drain. Depreciation reflects that economic cost; EV / EBIT penalizes firms with heavy capital replacement requirements, whereas EV / EBITDA ignores them.
 - **Equity-Level Multiples (Post-Debt / Levered):**
   - **P / E (Price-to-Earnings Ratio):**
-    \[
-    \frac{P}{E} = \frac{\text{Equity Value}}{\text{Net Income}} = \frac{\text{Share Price}}{\text{Earnings Per Share (EPS)}}
-    \]
-    The most widely cited multiple among equity research analysts. Unlike EV multiples, P / E is heavily influenced by financial leverage: taking on debt introduces interest expense, shrinking net income and altering the denominator.
+
+\\[
+\frac{P}{E} = \frac{\text{Equity Value}}{\text{Net Income}} = \frac{\text{Share Price}}{\text{Earnings Per Share (EPS)}}
+\\]
+
+  The most widely cited multiple among equity research analysts. Unlike EV multiples, P / E is heavily influenced by financial leverage: taking on debt introduces interest expense, shrinking net income and altering the denominator.
   - **P / B (Price-to-Book Value):**
-    \[
-    \frac{P}{B} = \frac{\text{Equity Value}}{\text{Book Value of Equity}}
-    \]
-    Essential for commercial banks, insurance companies, and balance-sheet-heavy financial institutions whose assets consist primarily of liquid loans and securities marked near fair value.
+
+\\[
+\frac{P}{B} = \frac{\text{Equity Value}}{\text{Book Value of Equity}}
+\\]
+
+  Essential for commercial banks, insurance companies, and balance-sheet-heavy financial institutions whose assets consist primarily of liquid loans and securities marked near fair value.
 - **The First-Principles Drivers of Multiples:**
-  Every multiple can be derived mathematically from the Gordon Growth model. For the P/E ratio, with dividend payout ratio \((1 - b)\), cost of equity \(r_e\), and growth rate \(g\):
-  \[
-  \frac{P_0}{E_1} = \frac{1 - b}{r_e - g}
-  \]
+  Every multiple can be derived mathematically from the Gordon Growth model. For the P/E ratio, with dividend payout ratio \\((1 - b)\\), cost of equity \\(r\_e\\), and growth rate \\(g\\):
+
+\\[
+\frac{P\_0}{E\_1} = \frac{1 - b}{r\_e - g}
+\\]
+
   Similarly, EV / EBITDA is fundamentally driven by:
-  \[
-  \frac{\text{EV}}{\text{EBITDA}} \propto \frac{(1 - t) \cdot (1 - \text{Reinvestment Rate})}{\text{WACC} - g}
-  \]
-  A multiple is never "cheap" or "expensive" in isolation: high multiples reflect superior expected growth (\(g\)), higher returns on invested capital (lower required reinvestment), or lower risk ([WACC](../04-wacc/)).
+
+\\[
+\frac{\text{EV}}{\text{EBITDA}} \propto \frac{(1 - t) \cdot (1 - \text{Reinvestment Rate})}{\text{WACC} - g}
+\\]
+
+  A multiple is never "cheap" or "expensive" in isolation: high multiples reflect superior expected growth (\\(g\\)), higher returns on invested capital (lower required reinvestment), or lower risk ([WACC](../04-wacc/)).
 - **Public Comps vs. Precedent Transactions:**
   - **Public Trading Comps:** Reflect current liquid, minority-stake market valuations without any change of control.
   - **Precedent Transactions:** Reflect historical acquisitions of entire businesses. They typically trade at a **20%–30% premium** (the "control premium") over undisturbed trading prices because the acquirer pays for the right to control capital allocation, replace management, and realize operational synergies.
@@ -64,7 +72,7 @@ While a Discounted Cash Flow (DCF) model assesses the intrinsic value of a compa
   Net Income (Equity Holders Only)        P / E, Equity Value / Net Income
 ```
 
-Think of a multiple as an inverted capitalization rate: an 8.0x EV / EBITDA multiple implies the market is pricing the operating stream at a \(\frac{1}{8.0} = 12.5\%\) gross cash yield before taxes and reinvestment.
+Think of a multiple as an inverted capitalization rate: an 8.0x EV / EBITDA multiple implies the market is pricing the operating stream at a \\(\frac{1}{8.0} = 12.5\%\\) gross cash yield before taxes and reinvestment.
 
 ## Interview questions
 
@@ -80,7 +88,7 @@ Think of a multiple as an inverted capitalization rate: an 8.0x EV / EBITDA mult
    Answer: In a precedent transaction, the strategic or financial acquirer is purchasing 100% control of the company rather than a minority public share. The buyer pays a **control premium** (historically 20%–30% above the undisturbed share price) for the legal right to control the board, redirect free cash flows, optimize capital structure, shut down redundant headquarters, and capture revenue and cost synergies. Public trading comps reflect frictionless, liquid minority purchases with zero control.
 
 4. **If two companies have the exact same expected earnings growth and risk profile, why might Company X trade at 20x P/E while Company Y trades at 12x P/E?**  
-   Answer: Look at their **Return on Equity (ROE)** and capital reinvestment efficiency. By the formula \(\frac{P}{E} = \frac{1 - g/\text{ROE}}{r_e - g}\), if Company X has an ROE of 30% while Company Y has an ROE of 12%, Company X only needs to reinvest a small fraction of its earnings to generate the same growth rate \(g\), allowing it to pay out the rest in dividends or buybacks. Company Y must retain almost all its net earnings just to keep up. Investors pay a premium multiple for capital-light, high-return businesses.
+   Answer: Look at their **Return on Equity (ROE)** and capital reinvestment efficiency. By the formula \\(\frac{P}{E} = \frac{1 - g/\text{ROE}}{r\_e - g}\\), if Company X has an ROE of 30% while Company Y has an ROE of 12%, Company X only needs to reinvest a small fraction of its earnings to generate the same growth rate \\(g\\), allowing it to pay out the rest in dividends or buybacks. Company Y must retain almost all its net earnings just to keep up. Investors pay a premium multiple for capital-light, high-return businesses.
 
 5. **When is Price-to-Book (P/B) the primary valuation multiple, and when is it completely useless?**  
    Answer: P/B is the gold standard for valuing commercial banks, insurance carriers, and investment trusts. For these institutions, the balance sheet consists of liquid financial assets, government bonds, and loans marked close to fair market value, and regulatory capital requirements are tied directly to book equity. Conversely, P/B is useless for asset-light software, consulting, and consumer brand companies (e.g., Apple, Microsoft, Nike), where the true productive assets—proprietary software, brand equity, intellectual property—are never capitalized on the balance sheet under GAAP.

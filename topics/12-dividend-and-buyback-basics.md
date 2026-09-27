@@ -25,15 +25,19 @@ When a mature corporation generates free cash flow in excess of available positi
 - **Cash Dividends vs. Share Repurchases:**
   - **Cash Dividends:** A recurring, contractual-like cash distribution declared per share. Boards treat dividends as sticky commitments; cutting a dividend sends a severe negative distress signal to the market. On the **ex-dividend date**, the stock price drops by exactly the per-share dividend amount in a tax-neutral world.
   - **Share Repurchases (Buybacks):** Flexible, discretionary open-market repurchases or tender offers. Cash leaves the balance sheet, and shares outstanding are retired:
-    \[
-    \text{New Shares} = \text{Old Shares} - \frac{\text{Cash Spent}}{\text{Repurchase Price}}
-    \]
-    Equity Value declines by the cash spent, but because share count shrinks proportionally, **per-share intrinsic value is unchanged** if shares are bought at fair value.
+
+\\[
+\text{New Shares} = \text{Old Shares} - \frac{\text{Cash Spent}}{\text{Repurchase Price}}
+\\]
+
+  Equity Value declines by the cash spent, but because share count shrinks proportionally, **per-share intrinsic value is unchanged** if shares are bought at fair value.
 - **The EPS Accretion Trap:**
   Repurchasing shares reduces the share count, which mechanically increases Earnings Per Share (EPS) whenever the earnings yield of the stock exceeds the foregone interest on cash:
-  \[
-  \text{Earnings Yield} = \frac{\text{EPS}}{P} = \frac{1}{\text{P/E}} > r_{\text{cash}}(1 - t)
-  \]
+
+\\[
+\text{Earnings Yield} = \frac{\text{EPS}}{P} = \frac{1}{\text{P/E}} > r\_{\text{cash}}(1 - t)
+\\]
+
   *Critical Interview Point:* **EPS accretion does NOT equal value creation.** If a board repurchases shares at $100 when their intrinsic value is only $70, management transfers wealth directly from remaining long-term shareholders to departing selling shareholders, destroying intrinsic value despite higher headline EPS.
 - **Why Boards Prefer Buybacks over Dividends:**
   1. **Financial Flexibility:** Buybacks can be dialed up or paused across economic cycles without the catastrophic stock price penalty associated with a dividend cut.
@@ -66,23 +70,23 @@ Paying a dividend is like taking cash out of your company’s corporate bank acc
 
 1. **If a company with 10 million shares trading at $50 per share spends $50 million of cash to repurchase shares at market price, what is the stock price immediately following the buyback in an efficient market?**  
    Answer: Exactly $50 per share.  
-   - Initial Market Cap: \(10\text{M} \times \$50 = \$500\text{M}\).  
-   - Cash leaves the firm: New Market Cap \(= \$500\text{M} - \$50\text{M} = \$450\text{M}\).  
-   - Shares repurchased: \(\$50\text{M} / \$50 = 1\text{M shares}\).  
-   - Remaining shares: \(10\text{M} - 1\text{M} = 9\text{M shares}\).  
-   - New Share Price: \(\frac{\$450\text{M}}{9\text{M}} = \$50\).  
+   - Initial Market Cap: \\(10\text{M} \times \$50 = \$500\text{M}\\).  
+   - Cash leaves the firm: New Market Cap \\(= \$500\text{M} - \$50\text{M} = \$450\text{M}\\).  
+   - Shares repurchased: \\(\$50\text{M} / \$50 = 1\text{M shares}\\).  
+   - Remaining shares: \\(10\text{M} - 1\text{M} = 9\text{M shares}\\).  
+   - New Share Price: \\(\frac{\$450\text{M}}{9\text{M}} = \$50\\).  
    The remaining shareholders own a larger slice of a smaller pie, leaving per-share wealth identical.
 
 2. **Can a company execute an EPS-accretive share repurchase that actually destroys shareholder value?**  
-   Answer: Yes. Consider a company whose stock trades at a P/E of 10x (an earnings yield of \(1/10 = 10\%\)). It borrows debt at a 4% after-tax interest rate to repurchase shares. Because the 10% earnings yield exceeds the 4% after-tax cost of debt, EPS increases immediately. However, if the stock's intrinsic value is only $20 but management repurchases shares at $40, management is paying $2.00 of corporate cash for every $1.00 of intrinsic asset value. Furthermore, the added debt increases financial distress risk and raises WACC. The headline EPS rises, but true shareholder value is destroyed.
+   Answer: Yes. Consider a company whose stock trades at a P/E of 10x (an earnings yield of \\(1/10 = 10\%\\)). It borrows debt at a 4% after-tax interest rate to repurchase shares. Because the 10% earnings yield exceeds the 4% after-tax cost of debt, EPS increases immediately. However, if the stock's intrinsic value is only $20 but management repurchases shares at $40, management is paying $2.00 of corporate cash for every $1.00 of intrinsic asset value. Furthermore, the added debt increases financial distress risk and raises WACC. The headline EPS rises, but true shareholder value is destroyed.
 
 3. **What is the 'dividend clientele effect,' and why does it make sudden changes in dividend policy dangerous for a stock price?**  
    Answer: Different investor groups prefer different payout policies based on their tax status and liquidity needs. High-net-worth individual investors prefer low or zero dividends to defer capital gains taxes, whereas pension funds, endowments, and retirees seek steady cash yields for living expenses. Over time, an established dividend payer attracts a shareholder base optimized for regular income. If the company suddenly eliminates or slashes its dividend, the income-seeking clientele is forced to dump the stock, triggering sharp short-term selling pressure.
 
 4. **What is a 'dividend yield trap,' and what financial ratios reveal it?**  
    Answer: A dividend yield trap occurs when an investor buys a stock with an unsustainably high dividend yield (e.g., 11%) without realizing that the high yield is driven by a collapsing stock price caused by deteriorating core fundamentals. Key ratios that reveal the trap include:  
-   - **Dividend Payout Ratio:** \(\text{Dividends Paid} / \text{Net Income} > 100\%\) (paying out more than it earns).  
-   - **FCF Dividend Coverage:** \(\text{Dividends Paid} / \text{Free Cash Flow} > 1.0\) (the company must borrow debt or issue equity just to sustain the dividend).  
+   - **Dividend Payout Ratio:** \\(\text{Dividends Paid} / \text{Net Income} > 100\%\\) (paying out more than it earns).  
+   - **FCF Dividend Coverage:** \\(\text{Dividends Paid} / \text{Free Cash Flow} > 1.0\\) (the company must borrow debt or issue equity just to sustain the dividend).  
    - **Net Debt / EBITDA:** High leverage indicates debt covenants may soon restrict dividend payments.
 
 ## Watch
