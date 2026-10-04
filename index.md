@@ -6,7 +6,7 @@ nav_order: 1
 
 # Corporate Finance Study Guide
 
-A practical, rigorous study guide for Penn builders, Wharton quantitative finance students, and candidates preparing for investment banking and corporate finance interviews. It covers the core analytical toolkit: time value of money, risk and cost of capital, capital structure, project valuation, free cash flow modeling, enterprise valuation, multiples, and M&A dynamics — with clean math and zero fluff.
+A practical, rigorous study guide for builders and candidates preparing for investment banking and corporate finance interviews. It covers the core analytical toolkit: time value of money, risk and cost of capital, capital structure, project valuation, free cash flow modeling, enterprise valuation, multiples, and M&A dynamics — with clean math and zero fluff.
 
 ## How to use this guide
 

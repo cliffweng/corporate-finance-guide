@@ -1,6 +1,6 @@
 # Corporate Finance Study Guide
 
-A practical corporate finance study guide for Penn builders, Wharton QF students, and investment banking / corporate finance interview prep — covering WACC, FCF, capital structure, valuation, and M&A with clean math and capital literacy.
+A practical corporate finance study guide for builders and investment banking / corporate finance interview candidates — covering WACC, FCF, capital structure, valuation, and M&A with clean math and capital literacy.
 
 **Live site:** https://cliffweng.github.io/corporate-finance-guide/  
 *(Also accessible via custom domain path: [cliffweng.com/corporate-finance-guide/](https://cliffweng.com/corporate-finance-guide/))*
@@ -52,7 +52,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). In short: one topic per file, keep it un
 
 These are the product locks this guide was built against — echoed here so future contributors don't accidentally relitigate them:
 
-- **Audience**: Penn CS+stats+econ builders + Wharton QF students + IB/corp fin interview prep. Bias toward IB interview rigor (WACC/FCF/EV) with clean math.
+- **Audience**: builders and IB/corp fin interview candidates. Bias toward IB interview rigor (WACC/FCF/EV) with clean math.
 - **Time-boxed**: every topic is readable in 10 minutes or less. Depth is balanced with interview scannability; further reading links point to advanced treatises (Brealey/Myers, Damodaran).
 - **Learning + interview prep in one page**: each topic pairs core corporate finance mechanics with interview questions, rather than splitting them into separate tracks.
 - **Real links only**: every YouTube link is verified to exist before being added. No invented URLs, ever.
